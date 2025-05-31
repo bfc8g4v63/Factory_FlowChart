@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="5796.5" dy="2453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3370.5" dy="981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="2064gVqU6p6M1p6O8Fjj-99" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-125.25" y="238" width="250" height="230" as="geometry" />
+          <mxGeometry x="-125.25" y="160" width="250" height="230" as="geometry" />
         </mxCell>
         <mxCell id="2064gVqU6p6M1p6O8Fjj-97" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="-920" y="478" width="1844.75" height="1380" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-13" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-18" y="432.81" width="47" height="31.24" as="geometry" />
+          <mxGeometry x="-23" y="346.21" width="47" height="31.24" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-16" value="Router" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;align=left;" parent="1" vertex="1">
           <mxGeometry x="-249.5" y="667.81" width="133.39" height="172.19" as="geometry" />
@@ -96,11 +96,11 @@
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-49" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.467;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="2064gVqU6p6M1p6O8Fjj-1" target="6a7d8f32e03d9370-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="30" y="644" as="sourcePoint" />
+            <mxPoint x="25" y="557.4000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-31" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.site;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-44.97000000000003" y="248" width="105.94" height="100" as="geometry" />
+          <mxGeometry x="-53.22000000000003" y="173.95" width="105.94" height="100" as="geometry" />
         </mxCell>
         <mxCell id="6a7d8f32e03d9370-62" value="&lt;font style=&quot;color: light-dark(rgb(48, 8, 247), rgb(237, 237, 237));&quot;&gt;Factory Network Topology&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-430.75" y="80" width="861" height="40" as="geometry" />
@@ -111,14 +111,14 @@
         <mxCell id="2064gVqU6p6M1p6O8Fjj-12" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png;shadow=0;strokeColor=#000000;fillColor=#FFFFFF;gradientColor=none;fontSize=18;fontColor=#F08705;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="40.75" y="1378" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2064gVqU6p6M1p6O8Fjj-29" value="" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.503;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.504;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-31" target="2064gVqU6p6M1p6O8Fjj-1">
+        <mxCell id="2064gVqU6p6M1p6O8Fjj-29" value="" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;exitX=0.503;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.504;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2064gVqU6p6M1p6O8Fjj-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-13" y="372.31" as="sourcePoint" />
-            <mxPoint x="8" y="432.31" as="targetPoint" />
+            <mxPoint x="3.317819999999756" y="260.00000000000017" as="sourcePoint" />
+            <mxPoint x="3" y="345.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2064gVqU6p6M1p6O8Fjj-1" value="Internet" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.web_service;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-24" y="383.81" width="63" height="60" as="geometry" />
+          <mxGeometry x="-29" y="297.45" width="62.75" height="59.76" as="geometry" />
         </mxCell>
         <mxCell id="2064gVqU6p6M1p6O8Fjj-32" value="Core Switch" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.chassis;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="-63.25" y="818.31" width="137.5" height="177.5" as="geometry" />
