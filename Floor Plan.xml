@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="平面圖 (Floor Plan)" id="0">
-    <mxGraphModel dx="1348" dy="760" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="2" value="Network&#xa;Room" style="shape=rectangle;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry y="380" width="80" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Burn in 1&#xa;(Access Switch 4)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="4" value="Burn in 1&#xa;(Access Switch 5)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="400" y="365" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-6" value="Fixture&#xa;storage" style="shape=rectangle;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
@@ -130,7 +130,7 @@
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-66" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="320" y="365" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-75" value="Burn in 2&#xa;(Access Switch 4)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-75" value="Burn in 2&#xa;(Access Switch 5)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="540" y="365" width="100" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-76" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -139,7 +139,7 @@
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-77" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="500" y="390" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-79" value="Assembly&amp;Machining &#xa;(Access Switch 1)&#xa;Pilot" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-79" value="Assembly&amp;Machining &#xa;(Access Switch 4)&#xa;Pilot" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="400" y="530" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-80" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -199,10 +199,10 @@
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-109" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="340" y="510" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-113" value="Packing A (Access Switch 5)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-113" value="Packing A (Access Switch 6)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="680" y="530" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-114" value="Packing B (Access Switch 6)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
+        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-114" value="Packing B (Access Switch 7)" style="shape=rectangle;fillColor=#FFF2CC;" parent="1" vertex="1">
           <mxGeometry x="680" y="360" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-115" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
