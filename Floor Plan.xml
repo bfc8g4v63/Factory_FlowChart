@@ -271,9 +271,6 @@
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-8" value="SMT Entrance" style="shape=rectangle;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="90" y="60" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-161" value="Production entrance &amp; exit" style="shape=rectangle;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="960" y="690" width="160" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-169" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="1000" as="sourcePoint" />
@@ -363,6 +360,12 @@
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-211" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="1000" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q4oipR97RpmIl3BWkt8V-4" value="Core Switch&#xa;NAS" style="shape=rectangle;fillColor=#FFF2CC;verticalAlign=top;rotation=90;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="15.13" y="455.88" width="37.75" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-161" value="Production entrance &amp; exit" style="shape=rectangle;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="960" y="690" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
