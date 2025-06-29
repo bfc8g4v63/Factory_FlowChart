@@ -191,9 +191,9 @@
           <mxGeometry x="655.9" y="1757.25" width="111.7" height="45" as="geometry" />
         </mxCell>
         <mxCell id="qkvtn3JJdcmHPuTYbmkj-153" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;End&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;結束/退出&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="97" y="1790" width="110" height="90" as="geometry" />
+          <mxGeometry x="362.5" y="2040" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qkvtn3JJdcmHPuTYbmkj-154" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="qkvtn3JJdcmHPuTYbmkj-153">
+        <mxCell id="qkvtn3JJdcmHPuTYbmkj-154" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="qkvtn3JJdcmHPuTYbmkj-153">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="442" y="1682" as="sourcePoint" />
             <mxPoint x="441" y="1733" as="targetPoint" />
