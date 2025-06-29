@@ -164,7 +164,7 @@
         <mxCell id="qkvtn3JJdcmHPuTYbmkj-143" value="Fail == Return to start &#xa;&amp;&#xa;check reserve or not yet" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="459" y="678" width="134" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="qkvtn3JJdcmHPuTYbmkj-145" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" target="qkvtn3JJdcmHPuTYbmkj-143">
+        <mxCell id="qkvtn3JJdcmHPuTYbmkj-145" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" edge="1" parent="1" target="qkvtn3JJdcmHPuTYbmkj-143">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="555" y="655" as="sourcePoint" />
             <mxPoint x="598" y="575" as="targetPoint" />
