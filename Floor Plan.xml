@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="平面圖 (Floor Plan)" id="0">
-    <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="624" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,15 +225,6 @@
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-120" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="680" y="485" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-121" value="" style="shape=rectangle;fillColor=#FFF2CC;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="740" y="480" width="20" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-122" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="740" y="505" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-123" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="740" y="485" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jfl1Yfcr9I1u6tA4rDL5-130" value="" style="shape=rectangle;fillColor=#FFF2CC;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="900" y="500" width="20" height="30" as="geometry" />
