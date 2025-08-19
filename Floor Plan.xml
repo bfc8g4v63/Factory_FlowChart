@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="平面圖 (Floor Plan)" id="0">
-    <mxGraphModel dx="925" dy="552" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -475,10 +475,10 @@
         <mxCell id="GG-C4tvPXIrK7oYfFsC5-51" value="i 3" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="214.12" y="773" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3HavYRSWXi2X-P6i71BR-5" value="立榮 i 5 * 20" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3HavYRSWXi2X-P6i71BR-5" value="立榮 i 5 *16" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1132" y="908" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3HavYRSWXi2X-P6i71BR-6" value="上貿 i 5 *1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3HavYRSWXi2X-P6i71BR-6" value="上貿 i 5 *6" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1281" y="908" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="679k-QYFeRsFV63-lB7A-4" value="" style="shape=rectangle;fillColor=#FFF2CC;verticalAlign=top;" parent="1" vertex="1">
@@ -493,14 +493,14 @@
         <mxCell id="679k-QYFeRsFV63-lB7A-13" value="" style="shape=rectangle;fillColor=#FFF2CC;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="752" y="437" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="679k-QYFeRsFV63-lB7A-14" value="i 3" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="752" y="442" width="20" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="679k-QYFeRsFV63-lB7A-22" value="PC" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="752" y="473" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="O8hp4A4NoGHcFM-rxBZR-6" value="i 5" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="O8hp4A4NoGHcFM-rxBZR-6" value="i 5" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="182" y="338" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JIqSzqNs0ztzl5qtLPO3-4" value="中正 i 5 *3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1132" y="995" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
