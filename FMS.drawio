@@ -1,248 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第1頁" id="_NxodvjAOO-UwxukyWYw">
-    <mxGraphModel dx="3073" dy="1577" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2792" dy="1380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-167" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;資料層&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=#6c8ebf;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-97" y="2405" width="3160" height="1315" as="geometry" />
+        </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-63" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;應用服務層&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-92" y="850" width="3160" height="1315" as="geometry" />
+          <mxGeometry x="-92" y="850" width="3160" height="1395" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-136" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;登入 / 帳號權限&lt;/font&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;權限驗證 / Session / 閒置登出 / 單實例啟動&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="793" y="898" width="658" height="497" as="geometry" />
+          <mxGeometry x="793" y="998" width="658" height="497" as="geometry" />
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-130" value="&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;Tkinter 介面層&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=14;strokeColor=#009900;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="798" y="204" width="935" height="618" as="geometry" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-130" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 32px;&quot;&gt;介面層&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=14;strokeColor=#009900;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="775" y="204" width="981" height="618" as="geometry" />
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-120" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;治具管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Fixture Service&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;insert_fixture()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;add_stock() / transfer_stock()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;倉別規則/防呆(不可負數)&lt;br&gt;&lt;/font&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px; font-weight: normal;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;規則：建立治具料號時，同步建立全倉料號；入庫僅限『治具室』；&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;轉倉可任意倉別但來源不可為負；所有欄位防呆；操作後即時刷新&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="56" y="898" width="676" height="497" as="geometry" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-120" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;治具管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Fixture Service&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;insert_fixture()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;add_stock() / transfer_stock()&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;倉別規則/防呆(不可負數)&lt;br&gt;&lt;/font&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 20px; font-weight: normal;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;規則：建立治具料號時，同步建立全倉料號；入庫僅限『治具室』；&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;轉倉可任意倉別但來源不可為負；所有欄位防呆；操作後即時寫入&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="56" y="998" width="676" height="497" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-39" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;華勤&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="92" y="1076" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-3" value="&#xa;&#xa;&#xa;Write registry" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
-          <mxGeometry x="749" y="3209.5" width="101" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-4" value="Kernel logic&#xa;&#xa;靜默寫入 Ignore 註冊表&#xa;Enumberation 清理&#xa;記錄成功或失敗" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC" parent="1" vertex="1">
-          <mxGeometry x="902" y="3209" width="400" height="91" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-4" target="GHc4ciqTXYVALi_jFt4Q-3" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1056" y="3436" as="sourcePoint" />
-            <mxPoint x="746" y="3477" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="874" y="3246" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-7" value="true" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
-          <mxGeometry x="935" y="2675" width="30.5" height="17" as="geometry" />
+          <mxGeometry x="92" y="1176" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GHc4ciqTXYVALi_jFt4Q-9" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;上齊&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" parent="1" vertex="1">
-          <mxGeometry x="92" y="927" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-10" value="&lt;p style=&quot;font-weight: 700; text-wrap-mode: nowrap; text-decoration-line: underline; margin: 4px 0px 0px;&quot;&gt;Scan strategy&lt;/p&gt;&lt;hr style=&quot;font-weight: 700; text-wrap-mode: nowrap;&quot;&gt;&lt;p style=&quot;font-weight: 700; text-wrap-mode: nowrap; margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;font-weight: 700; text-wrap-mode: nowrap; margin: 0px 0px 0px 8px;&quot;&gt;掃描策略&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=#000000;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="1050.5" y="2572" width="129" height="129" as="geometry" />
+          <mxGeometry x="92" y="1027" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GHc4ciqTXYVALi_jFt4Q-13" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Start&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;開始&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1210.5" y="79" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;strokeColor=#0000FF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
-          <mxGeometry x="270" y="695" width="492.9" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-16" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Scan Enum count&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;掃描計數&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" parent="1" vertex="1">
-          <mxGeometry x="870" y="2727" width="111" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-17" value="" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-10" target="GHc4ciqTXYVALi_jFt4Q-16" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1041" y="2973" as="sourcePoint" />
-            <mxPoint x="987" y="2953" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-18" value="" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#990000;strokeWidth=2;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-10" target="GHc4ciqTXYVALi_jFt4Q-19" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1180" y="2952.02" as="sourcePoint" />
-            <mxPoint x="1290" y="2865" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-19" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;Execute log&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;寫入執行紀錄並備註&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;strokeOpacity=100;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1243.9" y="2719" width="138" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-20" value="false" style="text;spacingTop=-5;align=center" parent="1" vertex="1">
-          <mxGeometry x="1265" y="2678" width="30.5" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-21" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Sort count thread&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;依裝置數量排程&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" parent="1" vertex="1">
-          <mxGeometry x="1047.5" y="3068" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-22" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-16" target="GHc4ciqTXYVALi_jFt4Q-21" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1024" y="3020" as="sourcePoint" />
-            <mxPoint x="1025" y="3071" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="930" y="3113" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-23" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-21" target="GHc4ciqTXYVALi_jFt4Q-4" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1046" y="3175" as="sourcePoint" />
-            <mxPoint x="1047" y="3226" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-24" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" parent="1" vertex="1">
-          <mxGeometry x="777.1" y="3220" width="44.8" height="44.8" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-25" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.logic_composer;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="936.3" y="3230.3" width="53.7" height="53.4" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-26" value="&lt;p style=&quot;font-weight: 700; text-wrap-mode: nowrap; margin: 4px 0px 0px;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;br&gt;Erase VIDPID&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=default;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="1248.4" y="3047.16" width="129" height="129" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-27" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=none;strokeColor=#7F00FF;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.clean_rooms;" parent="1" vertex="1">
-          <mxGeometry x="1289.85" y="3074.1000000000004" width="46.1" height="46.1" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-4" target="GHc4ciqTXYVALi_jFt4Q-26" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1304" y="3256.44" as="sourcePoint" />
-            <mxPoint x="1363" y="3254" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1202" y="3156" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-29" value="" style="edgeStyle=elbowEdgeStyle;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-26" target="GHc4ciqTXYVALi_jFt4Q-19" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1362" y="3170" as="sourcePoint" />
-            <mxPoint x="1443" y="3114" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;strokeColor=#990000;strokeWidth=2;dashed=1;dashPattern=8 8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-26" target="GHc4ciqTXYVALi_jFt4Q-40" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1429" y="3320" as="sourcePoint" />
-            <mxPoint x="1429" y="3365" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1401" y="3370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-32" value="Success log" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1316.75" y="2949" width="70" height="26.67" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-33" value="Fail log" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1407" y="3238.1299999999997" width="45" height="26.67" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-34" value="Fail == Return to start &#xa;&amp;&#xa;check reserve or not yet" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1054" y="2836" width="134" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-35" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" parent="1" target="GHc4ciqTXYVALi_jFt4Q-34" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1228" y="2962" as="sourcePoint" />
-            <mxPoint x="1319" y="3022" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1141" y="2942" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-36" value="&#xa;&#xa;&#xa;Erase COMDB" style="whiteSpace=wrap;align=center;verticalAlign=middle;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC" parent="1" vertex="1">
-          <mxGeometry x="1151" y="3360" width="101" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-37" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.usb_stick;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="3368" width="23" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-38" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeColor=#990000;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-4" target="GHc4ciqTXYVALi_jFt4Q-36" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1100" y="3375" as="sourcePoint" />
-            <mxPoint x="957" y="3319" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-39" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Log sample&lt;/h1&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:00] [START] EnumGuardian執行&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:01] 檢查排程設定：符合執行時間&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:02] 初次掃描結果：&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; [1] VID_05AC&amp;amp;PID_12A8 Count:1234&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; [2] VID_0CA6&amp;amp;PID_5050 Count:432&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:03] 處理 [1] VID_05AC&amp;amp;PID_12A8&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Ignore註冊表：成功&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - ENUM清理：成功&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:05] 處理 [2] VID_0CA6&amp;amp;PID_5050&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Ignore註冊表：成功&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - ENUM清理：失敗 (PermissionError)&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:06] 第二次掃描無需清理&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:07] COMDB清理：成功&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;[2024-07-01 00:10:08] [COMPLETE] 執行完成&lt;/p&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;strokeColor=#0000FF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="2520" width="331" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-40" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Failed log&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;清理失敗寫入失敗清單JSON&lt;br&gt;並備註原因 便於查修&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#FFFFCC;strokeOpacity=100;strokeColor=default;" parent="1" vertex="1">
-          <mxGeometry x="1316.75" y="3357.87" width="167.5" height="137.25" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-41" value="&lt;font&gt;failed_cleanup.json&lt;/font&gt;" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.log;" parent="1" vertex="1">
-          <mxGeometry x="1344.65" y="3384.12" width="111.7" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-42" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;End&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;結束/退出&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1047.5" y="3731" width="110" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-43" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-4" target="GHc4ciqTXYVALi_jFt4Q-42" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1127" y="3373" as="sourcePoint" />
-            <mxPoint x="1126" y="3424" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-44" value="Execute log.txt" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.log;" parent="1" vertex="1">
-          <mxGeometry x="1257.05" y="2745" width="111.7" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-19" target="GHc4ciqTXYVALi_jFt4Q-39" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1702" y="2698" as="sourcePoint" />
-            <mxPoint x="1548" y="2508" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1382" y="2640" />
-              <mxPoint x="1534" y="2640" />
-              <mxPoint x="1534" y="2630" />
-              <mxPoint x="1760" y="2630" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-46" value="Success" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1207" y="3312" width="51" height="26.67" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-47" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Trobleshooting&amp;nbsp; log&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;[&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; {&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;vid_pid&quot;: &quot;0ca6a050&quot;,&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;count&quot;: 432,&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;error&quot;: &quot;PermissionError&quot;&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp; }&lt;/span&gt;&lt;br style=&quot;padding: 0px; margin: 0px; text-align: left;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;strokeColor=#0000FF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
-          <mxGeometry x="1636" y="3345" width="246.9" height="163" as="geometry" />
-        </mxCell>
-        <mxCell id="GHc4ciqTXYVALi_jFt4Q-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GHc4ciqTXYVALi_jFt4Q-40" target="GHc4ciqTXYVALi_jFt4Q-47" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1631" y="3465" as="sourcePoint" />
-            <mxPoint x="1556" y="3505" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-2" value="治具管理&#xa;&#xa;新增治具料號(8或12碼)/入庫/轉倉/扣帳&#xa;查詢/分倉統計/即時刷新" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flipH=0;flipV=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="845.4999999999999" y="709.5" width="400" height="91" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-16" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="104.5" y="957" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="104.5" y="1057" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-17" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;睿均&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="244" y="927" width="110" height="110" as="geometry" />
+          <mxGeometry x="244" y="1027" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-18" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="252" y="957" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="252" y="1057" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-20" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="98.84999999999997" y="1105" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="98.84999999999997" y="1205" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-21" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;捷&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;暉&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="401.6" y="927" width="110" height="110" as="geometry" />
+          <mxGeometry x="401.6" y="1027" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-22" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="410.6" y="957" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="410.6" y="1057" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-23" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;上貿&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="244" y="1076" width="110" height="110" as="geometry" />
+          <mxGeometry x="244" y="1176" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-24" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="259.4000000000001" y="1106" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="259.4000000000001" y="1206" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-25" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;立榮&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="559.5" y="927" width="110" height="110" as="geometry" />
+          <mxGeometry x="559.5" y="1027" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-26" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="570.8" y="957" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="570.8" y="1057" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-27" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Gertech&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="557.4000000000001" y="1076" width="114.6" height="110" as="geometry" />
+          <mxGeometry x="557.4000000000001" y="1176" width="114.6" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-28" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="565.5" y="1106" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="565.5" y="1206" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-29" value="&lt;p style=&quot;margin: 0px; margin-top: 4px; text-align: center; text-decoration: underline;&quot;&gt;Factory&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left; white-space-collapse: preserve; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;麥博&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; margin-left: 8px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=middle;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=1;fontStyle=1;strokeWidth=3;fillColor=#E6FFCC;strokeOpacity=100;" vertex="1" parent="1">
-          <mxGeometry x="401.6" y="1076" width="110" height="110" as="geometry" />
+          <mxGeometry x="401.6" y="1176" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-30" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" vertex="1" parent="1">
-          <mxGeometry x="410.6" y="1105" width="54.6" height="70.19999999999999" as="geometry" />
+          <mxGeometry x="410.6" y="1205" width="54.6" height="70.19999999999999" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-34" value="" style="strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-2" target="GHc4ciqTXYVALi_jFt4Q-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -287,66 +116,66 @@
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-47" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-17" target="GHc4ciqTXYVALi_jFt4Q-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="316.5" y="1157" as="sourcePoint" />
-            <mxPoint x="244.5" y="1298" as="targetPoint" />
+            <mxPoint x="316.5" y="1257" as="sourcePoint" />
+            <mxPoint x="244.5" y="1398" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="244.5" y="982" />
+              <mxPoint x="244.5" y="1082" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-48" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-39" target="GHc4ciqTXYVALi_jFt4Q-9">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="394.5" y="981.8" as="sourcePoint" />
-            <mxPoint x="352.5" y="981.8" as="targetPoint" />
+            <mxPoint x="394.5" y="1081.8" as="sourcePoint" />
+            <mxPoint x="352.5" y="1081.8" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-49" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-23" target="VIas7DstL4jLXsS-fGNQ-39">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="246" y="1130.8" as="sourcePoint" />
-            <mxPoint x="204" y="1130.8" as="targetPoint" />
+            <mxPoint x="246" y="1230.8" as="sourcePoint" />
+            <mxPoint x="204" y="1230.8" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-50" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-17" target="VIas7DstL4jLXsS-fGNQ-23">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="695.9000000000001" y="981.9" as="sourcePoint" />
-            <mxPoint x="653.9000000000001" y="981.9" as="targetPoint" />
+            <mxPoint x="695.9000000000001" y="1081.9" as="sourcePoint" />
+            <mxPoint x="653.9000000000001" y="1081.9" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-51" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-25" target="VIas7DstL4jLXsS-fGNQ-21">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="848.5" y="981.9" as="sourcePoint" />
-            <mxPoint x="806.5" y="981.9" as="targetPoint" />
+            <mxPoint x="848.5" y="1081.9" as="sourcePoint" />
+            <mxPoint x="806.5" y="1081.9" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-52" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-29" target="VIas7DstL4jLXsS-fGNQ-23">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="1002" y="981.86" as="sourcePoint" />
-            <mxPoint x="960" y="981.86" as="targetPoint" />
+            <mxPoint x="1002" y="1081.8600000000001" as="sourcePoint" />
+            <mxPoint x="960" y="1081.8600000000001" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-53" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-27" target="VIas7DstL4jLXsS-fGNQ-29">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="551.5" y="1130.8600000000001" as="sourcePoint" />
-            <mxPoint x="509.5" y="1130.8600000000001" as="targetPoint" />
+            <mxPoint x="551.5" y="1230.8600000000001" as="sourcePoint" />
+            <mxPoint x="509.5" y="1230.8600000000001" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-70" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.log_collector;" vertex="1" parent="1">
-          <mxGeometry x="634" y="1631" width="80" height="75" as="geometry" />
+          <mxGeometry x="245" y="2542" width="80" height="75" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-71" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SQL_Managed_Instances.svg;" vertex="1" parent="1">
-          <mxGeometry x="749" y="1686" width="85.88" height="113" as="geometry" />
+          <mxGeometry x="1438" y="2450" width="85.88" height="113" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-74" value="" style="image;html=1;image=img/lib/clip_art/computers/Monitor_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="806.3" y="269" width="80" height="80" as="geometry" />
+          <mxGeometry x="1227" y="259" width="77" height="77" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-75" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="595" y="1509" width="67.59" height="75" as="geometry" />
+          <mxGeometry x="206" y="2420" width="67.59" height="75" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-77" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GHc4ciqTXYVALi_jFt4Q-13" target="VIas7DstL4jLXsS-fGNQ-130">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -359,24 +188,6 @@
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-79" value="登入 / 帳號權限&#xa;Admin / Engineer / Leader" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="844.9999999999999" y="364" width="400" height="91" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-100" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-2" target="GHc4ciqTXYVALi_jFt4Q-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="745" y="808" as="sourcePoint" />
-            <mxPoint x="638" y="737" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="807" y="776" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-103" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-78">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="986" y="511" as="sourcePoint" />
-            <mxPoint x="758.9000000000001" y="536" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="819" y="539" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-105" value="治具BOM&#xa;&#xa;建置生產所需治具需求清單" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="845" y="594" width="400" height="91" as="geometry" />
@@ -401,33 +212,33 @@
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-113" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-21" target="VIas7DstL4jLXsS-fGNQ-17">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="396.5" y="984" as="sourcePoint" />
-            <mxPoint x="353.6" y="983.8" as="targetPoint" />
+            <mxPoint x="396.5" y="1084" as="sourcePoint" />
+            <mxPoint x="353.6" y="1083.8" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-114" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-21" target="VIas7DstL4jLXsS-fGNQ-29">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="454.29999999999995" y="1037" as="sourcePoint" />
-            <mxPoint x="454.29999999999995" y="1076" as="targetPoint" />
+            <mxPoint x="454.29999999999995" y="1137" as="sourcePoint" />
+            <mxPoint x="454.29999999999995" y="1176" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-115" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;startArrow=classicThin;startFill=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-25" target="VIas7DstL4jLXsS-fGNQ-27">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="614.5" y="1037" as="sourcePoint" />
-            <mxPoint x="614.5" y="1076" as="targetPoint" />
+            <mxPoint x="614.5" y="1137" as="sourcePoint" />
+            <mxPoint x="614.5" y="1176" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-121" value="&lt;div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1162" y="1473" width="60" height="30" as="geometry" />
+          <mxGeometry x="1162" y="1573" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-124" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
           <mxGeometry x="886.3" y="390" width="50" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-126" value="" style="image;html=1;image=img/lib/clip_art/computers/Virtual_Application_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="-56" y="894" width="80" height="80" as="geometry" />
+          <mxGeometry x="-56" y="994" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-127" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
           <mxGeometry x="1326.4" y="724.5" width="48.6" height="60" as="geometry" />
@@ -439,7 +250,7 @@
           <mxGeometry x="877.8" y="725.5" width="67" height="59" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-133" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.oracleDataCenter;fillColor=#ffffff;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="735" y="1387" width="76.23" height="88" as="geometry" />
+          <mxGeometry x="346" y="2298" width="76.23" height="88" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-134" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;" vertex="1" parent="1">
           <mxGeometry x="881.15" y="497.5" width="53" height="54" as="geometry" />
@@ -448,30 +259,64 @@
           <mxGeometry x="1330.91" y="609" width="50.99" height="61" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-141" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 20px;&quot;&gt;SOP管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;SOP Service&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;合併PDF / 綁定料號 / 套用 / 統計(各製程唯一料號數)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;SOP統計：各製程(DIP/組裝/測試/包裝/OQC)&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 20px; color: light-dark(rgb(51, 51, 51), rgb(193, 193, 193)); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;以『非空白的唯一料號數』計算&lt;/span&gt;&lt;/span&gt;&lt;/h1&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1513" y="898" width="658" height="496" as="geometry" />
+          <mxGeometry x="1513" y="998" width="658" height="496" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-137" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.file_system_browser;flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="1722" y="985" width="231.9" height="209" as="geometry" />
+          <mxGeometry x="1722" y="1085" width="231.9" height="209" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-138" value="" style="strokeColor=#0000FF;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-79" target="VIas7DstL4jLXsS-fGNQ-136">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1186" y="968" as="sourcePoint" />
             <mxPoint x="755" y="1094" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="816" y="410" />
-              <mxPoint x="816" y="876" />
-              <mxPoint x="1122" y="876" />
+              <mxPoint x="812" y="409" />
+              <mxPoint x="812" y="931" />
+              <mxPoint x="1122" y="931" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-144" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.cloudwatch_cross_account_observability;flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="1017" y="996" width="210" height="210" as="geometry" />
+          <mxGeometry x="1017" y="1096" width="210" height="210" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-145" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;治具管理&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;新增治具料號(8或12碼)/入庫/轉倉/扣減&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;查詢/分倉統計/即時刷新&lt;br&gt;規則：建立治具料號時，同步建立四倉資料；入庫僅限『治具室』；&lt;br&gt;轉倉可任意倉別但來源不可為負；所有欄位防呆；操作後即時刷新&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="898" width="658" height="496" as="geometry" />
+          <mxGeometry x="2230" y="998" width="658" height="496" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-146" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="2451.78" y="1004.5" width="214.44" height="193" as="geometry" />
+          <mxGeometry x="2451.78" y="1104.5" width="214.44" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-147" value="" style="strokeColor=#00CC00;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VIas7DstL4jLXsS-fGNQ-141">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="843" y="525" as="sourcePoint" />
+            <mxPoint x="1127.9" y="1011" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="828" y="525" />
+              <mxPoint x="828" y="951" />
+              <mxPoint x="1842" y="951" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-148" value="" style="strokeColor=#FF8000;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-105" target="VIas7DstL4jLXsS-fGNQ-145">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="652" y="658" as="sourcePoint" />
+            <mxPoint x="1651" y="1131" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="793" y="640" />
+              <mxPoint x="793" y="973" />
+              <mxPoint x="2559" y="973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-149" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;治具BOM&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="56" y="1583" width="673" height="496" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-166" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_set;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="1668" width="171.23" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-170" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;治具BOM&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="793" y="1582" width="656" height="497" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-171" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;操作紀錄&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="1582" width="654" height="497" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
