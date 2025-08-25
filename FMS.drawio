@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第1頁" id="_NxodvjAOO-UwxukyWYw">
-    <mxGraphModel dx="2137" dy="920" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2792" dy="1380" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VIas7DstL4jLXsS-fGNQ-63" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;應用服務層&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;fontSize=14;strokeColor=#d6b656;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-92" y="850" width="3160" height="1395" as="geometry" />
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-171" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;操作紀錄&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="1515" y="1582" width="654" height="497" as="geometry" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-171" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;Log Service&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;log_activity() / ensure_changelog_schema()&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1579" width="654" height="497" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-167" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;資料層&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=#6c8ebf;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-97" y="2405" width="3160" height="1315" as="geometry" />
+          <mxGeometry x="998" y="2409" width="970" height="1315" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-136" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;登入 / 帳號權限&lt;/font&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;權限驗證 / Session / 閒置登出 / 單實例啟動&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="793" y="998" width="658" height="497" as="geometry" />
@@ -168,17 +168,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-70" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.log_collector;" vertex="1" parent="1">
-          <mxGeometry x="229" y="2293" width="80" height="75" as="geometry" />
-        </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-71" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SQL_Managed_Instances.svg;" vertex="1" parent="1">
-          <mxGeometry x="1438" y="2450" width="85.88" height="113" as="geometry" />
+          <mxGeometry x="1435" y="2472" width="85.88" height="113" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-74" value="" style="image;html=1;image=img/lib/clip_art/computers/Monitor_128x128.png" vertex="1" parent="1">
           <mxGeometry x="1227" y="259" width="77" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-75" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application;fillColor=#4286c5;strokeColor=#57A2D8;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="479" y="2307" width="67.59" height="75" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-77" value="" style="edgeStyle=none;noEdgeStyle=1;strokeColor=#990000;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GHc4ciqTXYVALi_jFt4Q-13" target="VIas7DstL4jLXsS-fGNQ-130">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -197,18 +191,6 @@
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-107" value="DB管理&#xa;&#xa;DB 管理&#xa;切換 Dev/正式、備份/還原、WAL" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="1283" y="709.5" width="400" height="91" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-109" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DB&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;DB：WAL 模式、備份/還原、正式與開發路徑切換；&lt;br&gt;changelog 由 ensure_changelog_schema() 初始化&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;fillColor=none;strokeColor=#0000FF;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
-          <mxGeometry x="1776" y="695" width="492.9" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-110" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-107" target="VIas7DstL4jLXsS-fGNQ-109">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1686" y="749" as="sourcePoint" />
-            <mxPoint x="1769" y="749" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1730" y="770" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-111" value="操作紀錄 / 版本追溯&#xa;&#xa;可溯性" style="shape=process;whiteSpace=wrap;align=center;verticalAlign=middle;size=0.0475;fontStyle=1;strokeWidth=3;fillColor=#FFCCCC;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="1283" y="594" width="400" height="91" as="geometry" />
@@ -234,14 +216,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-121" value="&lt;div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1162" y="1573" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-124" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
           <mxGeometry x="886.3" y="390" width="50" height="48.5" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-126" value="" style="image;html=1;image=img/lib/clip_art/computers/Virtual_Application_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="1443" y="888" width="80" height="80" as="geometry" />
+          <mxGeometry x="1443" y="888" width="66" height="57" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-127" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.data;" vertex="1" parent="1">
           <mxGeometry x="1326.4" y="724.5" width="48.6" height="60" as="geometry" />
@@ -251,9 +230,6 @@
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-129" value="" style="image;html=1;image=img/lib/clip_art/finance/Safe_128x128.png" vertex="1" parent="1">
           <mxGeometry x="877.8" y="725.5" width="67" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-133" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.oracleDataCenter;fillColor=#ffffff;strokeColor=#5E5E5E;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="346" y="2298" width="76.23" height="88" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-134" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.window;" vertex="1" parent="1">
           <mxGeometry x="881.15" y="497.5" width="53" height="54" as="geometry" />
@@ -285,7 +261,7 @@
           <mxGeometry x="2230" y="998" width="658" height="496" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-146" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.tool;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="1734.7800000000002" y="1707" width="214.44" height="193" as="geometry" />
+          <mxGeometry x="1014.7800000000002" y="1704" width="214.44" height="193" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-147" value="" style="strokeColor=#00CC00;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VIas7DstL4jLXsS-fGNQ-141">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -293,25 +269,142 @@
             <mxPoint x="1127.9" y="1011" as="targetPoint" />
             <Array as="points">
               <mxPoint x="828" y="525" />
-              <mxPoint x="828" y="969" />
-              <mxPoint x="1842" y="969" />
+              <mxPoint x="828" y="976" />
+              <mxPoint x="1842" y="976" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FF0000;strokeColor=#FF3333;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-149" target="VIas7DstL4jLXsS-fGNQ-173">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-149" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;治具BOM&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-149" value="&lt;div&gt;&lt;font face=&quot;trebuchet ms, verdana, arial, sans-serif&quot; color=&quot;#333333&quot; style=&quot;font-size: 20px; text-wrap-mode: nowrap;&quot;&gt;DB管理&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;切換 Dev/正式、備份/還原、WAL&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;DB：WAL 模式、備份/還原、正式與開發路徑切換；&lt;br&gt;changelog 由 ensure_changelog_schema() 初始化&lt;/span&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
           <mxGeometry x="56" y="1583" width="673" height="496" as="geometry" />
         </mxCell>
         <mxCell id="VIas7DstL4jLXsS-fGNQ-166" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.data_set;" vertex="1" parent="1">
           <mxGeometry x="2473.38" y="1106" width="171.23" height="212" as="geometry" />
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-170" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;治具BOM&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="793" y="1582" width="656" height="497" as="geometry" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-179" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="1659" width="220" height="256" as="geometry" />
         </mxCell>
-        <mxCell id="VIas7DstL4jLXsS-fGNQ-173" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;fixture_bom&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;需求結構、料號對應&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;fontSize=14;strokeColor=#9673a6;verticalAlign=top;flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry y="2456" width="351" height="58" as="geometry" />
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-181" value="&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;USER&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="2605" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-184" value="" style="strokeColor=#0000FF;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-136" target="VIas7DstL4jLXsS-fGNQ-181">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="789.1" y="1249" as="sourcePoint" />
+            <mxPoint x="1066.1" y="1837" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="765" y="1248" />
+              <mxPoint x="765" y="2654" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-185" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;SOP_RECORD&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="2698" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-186" value="" style="strokeColor=#00CC00;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-141" target="VIas7DstL4jLXsS-fGNQ-185">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1541" y="1795" as="sourcePoint" />
+            <mxPoint x="2979" y="1813" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1485" y="1246" />
+              <mxPoint x="1485" y="2379" />
+              <mxPoint x="1734" y="2379" />
+              <mxPoint x="1734" y="2747" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-187" value="" style="strokeColor=#990000;strokeWidth=2;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-120" target="VIas7DstL4jLXsS-fGNQ-188">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="705" y="1437" as="sourcePoint" />
+            <mxPoint x="696" y="2383" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-42" y="1247" />
+              <mxPoint x="-42" y="2841" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-188" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;fixtures&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;料號(8或12碼)&lt;br&gt;品名、規格、單位、安庫、備註等&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="2792" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-189" value="changelog / activity_log" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="2986" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-190" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;warehouses&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;預設：治具室 / 上齊 / 睿均 / 不良品&lt;/span&gt;&lt;br style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: &amp;quot;trebuchet ms&amp;quot;, verdana, arial, sans-serif; text-wrap-mode: nowrap;&quot;&gt;支援自定新增倉別&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="2889" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-191" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-190">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1238" y="2938.46" as="sourcePoint" />
+            <mxPoint x="1119" y="2841" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1119" y="2938" />
+              <mxPoint x="1119" y="2841" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-192" value="" style="strokeColor=#990000;strokeWidth=2;rounded=1;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-189">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1266" y="3034" as="sourcePoint" />
+            <mxPoint x="1119" y="2923" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1119" y="3034" />
+              <mxPoint x="1119" y="2923" />
+              <mxPoint x="1120" y="2923" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-193" value="fixture_bom&lt;br&gt;需求結構、料號對應" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="3083" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-194" value="" style="strokeColor=#CC00CC;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-105" target="VIas7DstL4jLXsS-fGNQ-145">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1935" y="567" as="sourcePoint" />
+            <mxPoint x="2212" y="1155" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1263" y="640" />
+              <mxPoint x="1263" y="952" />
+              <mxPoint x="2559" y="952" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-196" value="" style="strokeColor=#CC00CC;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-145" target="VIas7DstL4jLXsS-fGNQ-193">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2885" y="1749" as="sourcePoint" />
+            <mxPoint x="4199" y="2107" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2974" y="1246" />
+              <mxPoint x="2974" y="3132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-197" value="" style="strokeColor=#FF9999;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-111" target="VIas7DstL4jLXsS-fGNQ-171">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1893" y="579" as="sourcePoint" />
+            <mxPoint x="2170" y="1167" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1721" y="639" />
+              <mxPoint x="1721" y="920" />
+              <mxPoint x="2196" y="920" />
+              <mxPoint x="2196" y="1528" />
+              <mxPoint x="1466" y="1528" />
+              <mxPoint x="1466" y="1828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-198" value="" style="strokeColor=#FF9999;strokeWidth=2;rounded=1;endArrow=classicThin;endFill=1;edgeStyle=orthogonalEdgeStyle;startArrow=classicThin;startFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;elbow=vertical;" edge="1" parent="1" source="VIas7DstL4jLXsS-fGNQ-171" target="VIas7DstL4jLXsS-fGNQ-189">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="627" y="2543" as="sourcePoint" />
+            <mxPoint x="393" y="3731" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1122" y="2356" />
+              <mxPoint x="1777" y="2356" />
+              <mxPoint x="1777" y="3035" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-199" value="&lt;span style=&quot;color: rgb(51, 51, 51); text-wrap-mode: nowrap;&quot;&gt;&lt;font style=&quot;&quot;&gt;Main Server DB&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="3180" width="432" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="VIas7DstL4jLXsS-fGNQ-200" value="Dev 本地 DB (可切換)&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=20;strokeColor=#b85450;verticalAlign=middle;flipH=0;flipV=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1267" y="3277" width="432" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
