@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="平面圖 (Floor Plan)" id="0">
-    <mxGraphModel dx="1572" dy="886" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -519,6 +519,9 @@
             <mxPoint x="1207" y="48" as="sourcePoint" />
             <mxPoint x="1207" y="628" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="I6BrNQBcrxCgddbIm3ca-4" value="i 5 Server" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;textDirection=ltr;convertToSvg=0;horizontal=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="252" y="908" width="20" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
