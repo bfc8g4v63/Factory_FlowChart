@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="平面圖 (Floor Plan)" id="0">
-    <mxGraphModel dx="925" dy="521" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -481,7 +481,7 @@
         <mxCell id="3HavYRSWXi2X-P6i71BR-5" value="立榮 i 5 *14" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="234.12" y="999" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3HavYRSWXi2X-P6i71BR-6" value="上貿 i 5 *11" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="3HavYRSWXi2X-P6i71BR-6" value="上貿 i 5 *12" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="383.12" y="999" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="679k-QYFeRsFV63-lB7A-5" value="i 3" style="shape=rectangle;fillColor=#f8cecc;strokeColor=#b85450;direction=south;" parent="1" vertex="1">
